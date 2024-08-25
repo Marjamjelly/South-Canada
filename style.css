@@ -12,3 +12,8 @@ h1 {
  color: white;
  border-style: groove;
 }
+.right {
+ float: right;
+ color: white;
+ border-style: groove;
+}
