@@ -21,3 +21,22 @@ h1 {
  width: 50%;
  background-color: red;
 }
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1.blinking-text {
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-style: groove;
+    animation: blink 1s infinite; 
+}
