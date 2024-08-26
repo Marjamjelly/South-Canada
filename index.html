@@ -35,6 +35,14 @@
         <li><a href="https://marjamjelly.github.io/Marjamjellys-Manifesto/">M.M.</a></li>
       </ul>
     </div>
-    <embed name="anthem" src="anthem.mp3" loop="true" hidden="true" autostart="true">
+    <audio id = "Anthem">
+        <source src = "anthem.mp3">
+    </audio>
+    <script>
+      window.addEventListener('click', function () {
+        var audio = document.getElementById("Anthem");
+        audio.play();
+      }
+    </script>
   </body>
 </html>
